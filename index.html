@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Conversor de temperatura</title>
+      <link href="global.css" rel="stylesheet" type="text/css">
+
+     <script type="text/javascript" src="temperatura.js"></script>
+  </head>
+  <body>
+    <h1>Conversor de Temperatura</h1>
+    <table>
+      <tr>
+        <th>Introduce la temperatura a cambiar (Ejemplos: 32F, 45C, -2.5f):</th>
+        <td><input id="original" onchange="calculate();"></td>
+      </tr>
+      <tr>
+        <th>Conversor de temperatura</th>
+        <td><span class="output" id="converted"></span></td>
+      </tr>
+    </table>
+  </body>
+</html>
