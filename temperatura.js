@@ -23,7 +23,7 @@ function calculate() {
     converted.innerHTML = sol;
   }
   else {
-    converted.innerHTML = "WRONG! Try something like '-4.2C' instead";
+    converted.innerHTML = "WRONG! Try again.";
   }
 }
   
